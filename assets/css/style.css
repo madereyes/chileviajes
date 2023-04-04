@@ -2,17 +2,53 @@ body *{
     margin:0;
     padding: 0;
     border: 0;
+    font-family: 'Raleway', sans-serif;
 }
 nav{
-    
     color:white;
-    background-color: #0dcaf0;
-}
-setion {
     background-image: url(../img/carousel1.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    width: 100%;
+}
+nav .a{
+    color:aliceblue;
+    text-align: end;
+
+}
+#texto-icon h2{
+color: aliceblue;
+text-align: center;
+font-size: 2em ;
+padding: 10px;
+
+}
+#texto-icon .card-body{
+    background-color:black;
+    color: aliceblue;
+    text-align: center;
+}
+#texto-icon .card{
+    background-color: aquamarine;
+    position: center;
+    background-position: center;
+
+
+}
+#texto-icon .bi{
+    align-content: center;
+    justify-content: center;
+    position: center;
+}
+#destacado h2{
+    text-align: center;
+    color: aliceblue;
+    font-size: 2em;
+    padding: 10px;
+}
+#destacado .card{
+    background-color: aquamarine;
+    background size: cover;
+    background-position: center;
 
 }
