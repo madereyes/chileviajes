@@ -70,11 +70,11 @@ font-family: normal;
 padding: 30px;
 position: flex;
 }
-.pie .icono {
-    background-color: white;
-    background-position: right;
-    padding: 5px;
+.pie a {
+    background-color: aquamarine;
+    background-position:right;
     display: inline-block;
     text-align: right;
+    color:black;
 
 }
