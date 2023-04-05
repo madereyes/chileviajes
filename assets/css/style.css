@@ -6,7 +6,6 @@ body *{
 }
 nav{
     color:white;
-    background-image: url(../img/carousel1.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -35,10 +34,11 @@ padding: 10px;
 
 
 }
-#texto-icon .bi{
+#texto-icon .icono{
     align-content: center;
     justify-content: center;
     position: center;
+    text-align: center;
 }
 #destacado h2{
     text-align: center;
@@ -47,8 +47,34 @@ padding: 10px;
     padding: 10px;
 }
 #destacado .card{
-    background-color: aquamarine;
-    background size: cover;
+    background-color: aquamarine;   
     background-position: center;
+
+}
+#mi-contacto {
+    padding: 30px;
+}
+#mi-contacto h2 {
+    text-align: center;
+    color: white;
+}
+#mi-contacto .cont{
+    text-align: start;
+    color:aliceblue;
+    font-size: 1em;
+}
+.pie h3 {
+background-color: aquamarine;
+color:aliceblue;
+font-family: normal;
+padding: 30px;
+position: flex;
+}
+.pie .icono {
+    background-color: white;
+    background-position: right;
+    padding: 5px;
+    display: inline-block;
+    text-align: right;
 
 }
